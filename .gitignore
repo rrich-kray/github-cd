@@ -1,0 +1,8 @@
+.DS_STORE/
+.vscode/
+node_modules/
+class-react-app/
+reactpractice/
+package-lock.json
+.env
+00-practice-app/
