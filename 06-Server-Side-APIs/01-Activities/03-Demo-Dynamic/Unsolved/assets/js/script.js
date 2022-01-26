@@ -9,9 +9,11 @@ function getApi() {
       return response.json();
     })
     .then(function (data) {
-      // Use the console to examine the response
-      console.log(data);
-      // TODO: Loop through the data and generate your HTML
+      for (var i = 0; i <= 5; i++) {
+        document.querySelector('#users').appendChild(data[i].url)
+        document.querySelector('#users').appendChild(data[i].login)
+      }
+    
     });
 }
 fetchButton.addEventListener('click', getApi);

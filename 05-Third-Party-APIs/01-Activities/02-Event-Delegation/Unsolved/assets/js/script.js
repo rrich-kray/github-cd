@@ -26,6 +26,17 @@ function handleFormSubmit(event) {
 
   // clear the form input element
   $('input[name="shopping-input"]').val('');
+
+  $('.delete-item-btn').on('click', function(){
+    shoppingListEl.remove(shoppingListItemEl);
+  })
+
+  shoppingListEl.on('click', function(event){
+    console.log(event.target.className);
+    if (event.target.className.includes("delete-item-btn")){
+      $(this).remove()
+    }
+  })
 }
 
 // TODO: Create a function to handle removing a list item when `.delete-item-btn` is clicked

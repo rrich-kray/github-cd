@@ -87,6 +87,14 @@ footer {
   color: #fff;
 }
 
+.link-container a {
+  visibility: hidden;
+}
+
+.link-container a:hover {
+  visibility: visible;
+}
+
 /* TODO: Add styles to display and hide the resource links */
 
 @media screen and (max-width: 768px) {

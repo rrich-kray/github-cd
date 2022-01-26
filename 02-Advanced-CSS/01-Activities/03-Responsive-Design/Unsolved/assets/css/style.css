@@ -14,9 +14,10 @@ header {
   color: #fff;
 }
 
-/* 
+/*
 What happens when we set the display property to flex? 
-TODO: Write your answer here 
+TODO: Write your answer here
+By default, all direct child elements of the parent element are automatically organized along a horizontal axis
 */
 nav {
   display: flex;
@@ -33,6 +34,7 @@ nav a {
 /* 
 What is the flex-wrap property? 
 TODO: Write your answer here 
+Moves child elements to another line if they do not fit on the screen
 */
 main {
   display: flex;
@@ -57,6 +59,7 @@ footer {
 /* 
 What does the justify-content property do? 
 TODO: Write your answer here 
+Positions child elements along the primary axis
 */
 .products {
   flex: 4;
@@ -71,6 +74,7 @@ TODO: Write your answer here
 What is the flex property a shorthand property for?
 What is it doing here? 
 TODO: Write your answer here 
+This is the shorthand for flex-grow, flex-shrink and flex-basis combined.
 */
 .card {
   border-style: solid;
@@ -96,6 +100,7 @@ TODO: Write your answer here
 What does the flex-direction property define?
 What is it doing here? 
 TODO: Write your answer here 
+Defines the main axis
 */
 @media screen and (max-width: 768px) {
   main,

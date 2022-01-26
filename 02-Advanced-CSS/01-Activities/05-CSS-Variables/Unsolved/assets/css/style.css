@@ -1,6 +1,15 @@
+
+:root {
+  --primary-background-color: #13293d;
+  --secondary-color: #fff;
+  --display-flex: flex;
+  --text-align-center: center;
+  --flex-wrap-wrap: wrap;
+}
+
 body {
   font-size: 16px;
-  display: flex;
+  display: var(--display-flex);
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start;
@@ -18,48 +27,48 @@ h2 {
 
 header {
   padding: 40px;
-  text-align: center;
-  background: #13293d;
-  color: #fff;
+  text-align: var(--text-align-center);
+  background: var(--primary-background-color);
+  color: var(--secondary-color)
 }
 
 nav {
-  display: flex;
+  display: var(--display-flex);
   background-color: #d8a47f;
 }
 
 nav a {
-  color: #13293d;
+  color: var(--primary-background-color);
   padding: 14px 20px;
   text-decoration: none;
-  text-align: center;
+  text-align: var(--text-align-center);
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: var(--secondary-color);
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  display: var(--display-flex);
+  flex-wrap: var(--flex-wrap-wrap);
 }
 
 footer {
   width: 100%;
   bottom: 0;
   padding: 20px;
-  text-align: center;
-  background: #13293d;
-  color: #fff;
+  text-align: var(--text-align-center);
+  background: var(--primary-background-color);
+  color: var(--secondary-color);
   margin-top: auto;
 }
 
 .products {
   flex: 1;
-  background-color: #fff;
+  background-color: var(--secondary-color);
   padding: 50px;
-  display: flex;
-  flex-wrap: wrap;
+  display: var(--display-flex);
+  flex-wrap: var(--flex-wrap-wrap);
   justify-content: space-evenly;
 }
 
@@ -80,7 +89,7 @@ footer {
 }
 
 .card > p {
-  text-align: center;
+  text-align: var(--text-align-center);
 }
 
 .card > img {

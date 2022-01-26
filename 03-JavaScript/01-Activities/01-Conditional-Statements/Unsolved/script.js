@@ -3,4 +3,9 @@ var x = 50;
 var expression1 = x < 25;
 var expression2 = x > 50;
 
+    
+var compare 
+if ((expression1 && expression2) || ())
+
+
 // TODO: Write Your JavaScript Code Here

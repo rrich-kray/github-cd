@@ -1,11 +1,14 @@
 var count = 0;
 
 // TODO: Add a comment describing the functionality of the following document.querySelector() methods:
+
+// variables that target the increment and decrement buttons in the HTML, and the section that will contain the counter
 var incrementEl = document.querySelector('#increment');
 var decrementEl = document.querySelector('#decrement');
 var countEl = document.querySelector('#count');
 
 // TODO: Add a comment describing the functionality of the following code:
+// Sets the counter section to the current counter 
 function setCounterText() {
   countEl.textContent = count;
 }
@@ -23,3 +26,7 @@ decrementEl.addEventListener('click', function() {
     setCounterText();
   }
 });
+
+
+
+//bonus

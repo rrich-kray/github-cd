@@ -28,6 +28,10 @@ If you have completed this activity, work through the following challenge with y
 
 * We have learned `getAttribute()` and `setAttribute()`. What other methods can you use to access an element's attributes?
 
+element.hasAttributes()
+element.attributes;
+element.removeAttribute()
+
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---

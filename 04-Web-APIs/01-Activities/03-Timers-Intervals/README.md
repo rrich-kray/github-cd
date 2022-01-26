@@ -34,6 +34,8 @@ If you have completed this activity, work through the following challenge with y
 
 * Which `window` method is used to delay an action for a set number of milliseconds? Why might this method be useful?
 
+window.setTimeout() - Initiate a countdown
+
 Use [Google](https://www.google.com) or another search engine to research this.
 
 ---

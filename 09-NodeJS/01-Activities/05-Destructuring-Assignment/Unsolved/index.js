@@ -6,6 +6,8 @@ const nodejs = {
 
 // TODO: Destructure the object 'nodejs'
 
+const { name, type }  = nodejs;
+
 console.log(name); // <= Node.js
 console.log(type); // <= JavaScript runtime environment
 

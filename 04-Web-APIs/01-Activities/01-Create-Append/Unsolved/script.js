@@ -36,3 +36,18 @@ kittenEl.setAttribute("style", "font-size:25px; text-align:center;");
 favoriteEl.setAttribute("style", "font-size:20px;");
 
 // TODO: Add ordered list items containing four favorite foods
+
+var appendEl = function(parent, type, className, content) {
+    let el = document.createElement(type);
+    el.textContent = content;
+    el.className = className;
+    parent.appendChild(el);
+}
+
+var orderedList = appendEl(body, "ol", "fav-foods", "");
+appendEl(orderedList, "li", "list-item", "Burgers" );
+appendEl(orderedList, "li", "list-item", "Ice Cream");
+appendEl(orderedList, "li", "list-item", "Cookies");
+appendEl(orderedList, "li", "list-item", "Steak");
+
+

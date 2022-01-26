@@ -26,3 +26,8 @@ var investor = {
 };
 
 // TODO: Call the `helloThis` function and the object methods to check results in the console
+
+helloThis()
+child.ageTenYears()
+investor.investment.investmentGrowth()
+

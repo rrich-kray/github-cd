@@ -1,6 +1,7 @@
 const originalArray = [1, 3, 2, 5, 10];
 
 // evenNumbers is equal to a new array of even numbers returned by filter(). filter() will use an anonymous function as a condition.
+// 
 const evenNumbers = originalArray.filter(function(data) {
   // The anonymous function uses a conditional to check if a number is divisible by 2.
   if (data % 2 === 0) {
@@ -24,7 +25,9 @@ const isPrime = num => {
 };
 
 // TODO: Describe how filter is working in this example. What will the value of primeArray be?
+// Returns all prime numbers up to the povided number
 const primeArray = originalArray.filter(isPrime);
 
 // TODO: Describe how filter is working in this example. What will the value of moreThan5Array be?
+// Returns all numbers in the array greater than 5
 const moreThan5Array = originalArray.filter(num => num > 5);
