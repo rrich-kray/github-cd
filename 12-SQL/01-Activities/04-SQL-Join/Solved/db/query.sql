@@ -1,4 +1,8 @@
--- INNER JOIN
+SELECT
+  -- Select the columns from both tables --
+  books.book_name AS book_name, prices.price AS price
+FROM books
+  -- Defines relationship between two tables ---- INNER JOIN
 SELECT
   books.book_name AS book_name, prices.price AS price
 FROM books
@@ -36,3 +40,5 @@ JOIN prices ON books.price = prices.id;
 
 -- How many individual prices are there?
 SELECT COUNT(*) AS total FROM prices;
+
+JOIN prices ON books.price = prices.id;
